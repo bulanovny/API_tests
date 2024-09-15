@@ -15,8 +15,6 @@ def test_list_users():
     # print(response.text)
     data = response.json()['data']
 
-    print('\n')
-
     for element in data:
         # print(element)
         try:
